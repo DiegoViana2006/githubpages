@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto formlário para contato</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Sobre mim</a>
+                </li>
+                <li>
+                    <a href="project.html">Projetos</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contato</a>
+                </li>
+            </ul>
+        </nav>
+        <header class="center">
+            <div> 
+                <img src="./img/eu_ea_gabi.jpg"></img>
+            <h1>Diego Rodrigues Prudencio</h1>
+            <h2>Apaixonado na Gabi e Desenvolvedor de software</h2>
+            </div>
+        </header>
+        <form class="contact-form" action="https://formsubmit.co/dieguinhomunizviana@gmail.com" method="POST">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" required>
+            <label for="message">Mensagem</label>
+            <input type="text" name="message" id="message" required>
+            <input type="hidden" name="_next" value="https://http://127.0.0.1:5500/">
+            <button type="submit">Send</button>
+        </form> 
+    </div>
+</body>
+</html>
